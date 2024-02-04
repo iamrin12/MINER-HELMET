@@ -1,0 +1,6 @@
+_G.name = true
+while _G.name == true do
+game:GetService("ReplicatedStorage"):WaitForChild("SpinnerContents"):WaitForChild("RemoteFunction"):InvokeServer()
+wait(5)
+end
+end)
